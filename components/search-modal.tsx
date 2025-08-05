@@ -108,10 +108,10 @@ export function SearchModal({ isOpen, onClose, initialProcedure, initialCountry 
       content: (
         <Select value={country} onValueChange={setCountry}>
           <SelectTrigger className="w-full border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800">
-            <SelectValue placeholder="Select a country (optional)" />
+            <SelectValue placeholder="Select Country" />
           </SelectTrigger>
           <SelectContent className="bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300">
-            <SelectItem value="all-countries">All Countries</SelectItem>
+            <SelectItem value="all-countries">Select Country</SelectItem>
             <SelectItem value="Turkey">Turkey</SelectItem>
             <SelectItem value="Thailand">Thailand</SelectItem>
             <SelectItem value="Mexico">Mexico</SelectItem>
