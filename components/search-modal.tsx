@@ -111,7 +111,6 @@ export function SearchModal({ isOpen, onClose, initialProcedure, initialCountry 
             <SelectValue placeholder="Select Country" />
           </SelectTrigger>
           <SelectContent className="bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300">
-            <SelectItem value="all-countries">Select Country</SelectItem>
             <SelectItem value="Turkey">Turkey</SelectItem>
             <SelectItem value="Thailand">Thailand</SelectItem>
             <SelectItem value="Mexico">Mexico</SelectItem>
@@ -122,6 +121,7 @@ export function SearchModal({ isOpen, onClose, initialProcedure, initialCountry 
             <SelectItem value="Canada">Canada</SelectItem>
             <SelectItem value="United Kingdom">United Kingdom</SelectItem>
             <SelectItem value="Australia">Australia</SelectItem>
+            <SelectItem value="all-countries">All Countries</SelectItem>
           </SelectContent>
         </Select>
       ),
